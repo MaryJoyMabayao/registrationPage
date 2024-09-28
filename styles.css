@@ -1,0 +1,77 @@
+
+		body{
+	font-family: sans-serif;
+	background-color: beige;
+	background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+
+#container{
+	width: 450px;
+	height: auto;
+	border: 1px solid #333;
+	margin: 50px auto;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 1.3);
+	border-radius: 10px;
+	padding: 10px;
+
+    background: linear-gradient(135deg, #6e8efb, #a77bca);
+}
+#logoArea img{
+	display: flex;
+	width: 100%;
+	min-height: 30vh;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+	position: relative;
+	border-radius: 10px 10px 0px 0px;
+	background-size: cover;
+	padding: 10px 0px;
+	color: #fff;
+}
+h3{
+	text-align: center;
+}
+
+
+#inputfieldArea{
+	width: 300px;
+	margin: 20px auto;
+
+
+}
+.groupField{
+	margin: 20px auto;
+}
+.groupField input,
+.groupField select{
+	width: 100%;
+	height: 30Px;
+}
+.groupField input:focus,
+.groupField select:focus{
+	outline: none;
+}
+#container #buttonArea{
+	text-align: center;
+}
+#buttonArea{
+	width: 200px;
+	margin: auto;
+}
+#buttonArea button{
+	background-color: darkgoldenrod;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 50px;
+	font-size: 15px;
+}
+#buttonArea button:hover{
+	font-size: 18px;
+	background-color:cyan;
+	transition: 3s all ease;
+}
+
